@@ -7,11 +7,11 @@
 [Dailan He](https://scholar.google.com/citations?user=f5MTTy4AAAAJ&hl=zh-CN), 
 [Kangning Song](), 
 [Xiaogang Wang](https://scholar.google.com/citations?user=-B5JgjsAAAAJ), 
-[Honwei Qin](https://scholar.google.com/citations?user=ZGM7HfgAAAAJ), 
+[Hongwei Qin](https://scholar.google.com/citations?user=ZGM7HfgAAAAJ), 
 [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)
 
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2303.02881)
 
 <hr />
 
@@ -29,6 +29,16 @@ Our model, named kernel basis network (KBNet), achieves state-of-the-art perform
 
 <img src = "figs/overview.jpg"> 
 
+## Citation
+If you use KBNet, please consider citing:
+
+    @article{Zhang2023kbnet,
+      title={KBNet: Kernel Basis Network for Image Restoration},
+      author={Yi Zhang and Dasong Li and Xiaoyu Shi and Dailan He 
+                and Kangning Song and Xiaogang Wang and Honwei Qin and Hongsheng Li},
+      year={2023},
+      journal={arXiv preprint arXiv:2303.02881},
+    }
 
 ## Contact
 Should you have any question, please contact zhangyi@link.cuhk.edu.hk
