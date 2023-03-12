@@ -40,6 +40,32 @@ Our model, named kernel basis network (KBNet), achieves state-of-the-art perform
 
 <img src = "figs/overview.jpg"> 
 
+## Installation
+
+[//]: # (Run `python setup.py develop --no_cuda_ext` to install basicsr.)
+```
+git clone https://github.com/zhangyi-3/KBNet.git
+cd KBNet
+
+pip install -r requirements.txt
+
+# install basicsr
+python setup.py develop --no_cuda_ext
+
+```
+
+
+## Evaluation
+### Image Restoration Tasks
+
+| Task                 | Dataset              | Test Instructions                                      | Visualization Results                                                                                                                           |
+|:---------------------|:---------------------|:-------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gaussian Denoising   | Urban / CBSD / Kodak | [link](./Denoising/README.md#Gaussian-Image-Denoising) | [onedrive](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/EtRVcmOfJiZAoL7SPyH3ZvkB8zbWg6Uw6uA6_Upq0p-cng?e=r6k5DC) |
+| Real Image Denoising | SIDD / SenseNoise    | [link](./Denoising/README.md#Real-Image-Denoising)     | [onedrive](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/EtRVcmOfJiZAoL7SPyH3ZvkB8zbWg6Uw6uA6_Upq0p-cng?e=r6k5DC) |
+| Image Deblurring     | DPPD                 | WIP                                                    | [onedrive](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/ElZN06VEM5JGiJCE4t03fmUBWIMxTnZF-eBh8ZrQ0HN0pg?e=YwR4Uk)                                                                                                                                    |
+| Image Deraining      | Test1200 / Test2800  | WIP                                                    | [onedrive](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/Eu_z0RqRDR9GsEWVl0NToCkBAAI1yFOI39qd57x5bSS2xQ?e=VerlIQ) |
+
+
 ## Citation
 If you use KBNet, please consider citing:
 
