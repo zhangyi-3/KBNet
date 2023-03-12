@@ -4,3 +4,5 @@ scipy
 lpips
 h5py
 PyYAML
+lmdb
+natsort
