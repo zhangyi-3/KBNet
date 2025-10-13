@@ -18,7 +18,7 @@
 
 ## Evaluation
 
-- Download the pre-trained [models](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/EofsV3eVcAxNlrW72JXqzRUBhkM1Mzw50pJ3BHlAyMYnVw?e=MeMB5H) and place them in `./pretrained_models/`
+- Download the pre-trained [models](https://pan.baidu.com/s/1JhjJwhMwrfW7aFW_dKYioQ?pwd=nqcn) and place them in `./pretrained_models/`
 
 - Download testsets (Set12, BSD68, CBSD68, Kodak, McMaster, Urban100), run 
 ```
@@ -45,7 +45,7 @@ python -u test_gaussian_color_denoising.py --yml Options/gau_color_50.yml
 
 ## Evaluation
 
-- Download the pre-trained [models](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/EofsV3eVcAxNlrW72JXqzRUBhkM1Mzw50pJ3BHlAyMYnVw?e=MeMB5H) and place them in `./pretrained_models/`
+- Download the pre-trained [models](https://pan.baidu.com/s/1JhjJwhMwrfW7aFW_dKYioQ?pwd=nqcn) and place them in `./pretrained_models/`
 
 #### Testing on SIDD dataset
 
@@ -69,7 +69,7 @@ python -u test_real_denoising_sidd.py --yml Options/sidd.yml
 
 #### Testing on [SenseNoise dataset](https://github.com/zhangyi-3/IDR)
 
-- Download the SenseNoise [testing data](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155135732_link_cuhk_edu_hk/Eqj2xo-jzTlChyuyF-JWmzQBdi5sLBrRZxQikdnko3EpfQ?e=81pFjp) and place them in `./Datasets/`
+- Download the SenseNoise [testing data](https://pan.baidu.com/s/18fSvi2CiMKnC6lxlZ73h8g?pwd=6wps) and place them in `./Datasets/`
 
 - To obtain denoised results, run
 ```
